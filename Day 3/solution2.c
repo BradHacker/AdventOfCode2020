@@ -19,15 +19,18 @@ int main(int argc, char* argv[])
   int* xSlopes = (int*)malloc(sizeof(int) * num_slopes);
   int* ySlopes = (int*)malloc(sizeof(int) * num_slopes);
 
+  // Parse in slopes
   for (int a = 0; a < num_slopes; a++) {
     xSlopes[a] = atoi(argv[a * 2 + 1]);
     ySlopes[a] = atoi(argv[a * 2 + 2]);
   }
 
+  // Open file
   fp = fopen("input.txt", "r");
   if (fp == NULL)
     exit(EXIT_FAILURE);
 
+  // Loop over lines of input
   int line_num = 0;
   int num_trees = 0;
 
@@ -45,6 +48,7 @@ int main(int argc, char* argv[])
     line_num++;
   }
 
+  // Print product and cleanup
   int product = 1;
   for (int i = 0; i < num_slopes; i++) {
     printf("Right %d, down %d\n", xSlopes[i], ySlopes[i]);
