@@ -4,22 +4,22 @@ These are my solutions to the Advent Of Code 2020 event.
 
 ## Languages
 
-| Day | Language |
-|-----|----------|
-|1|CoffeeScript|
-|2|JavaScript|
-|3|C|
-|4|Go|
-|5|Ruby|
-|6|Perl|
-|7|Java|
-|8|Rust|
-|9|Clojure|
-|10|Kotlin|
-|11|Elixir|
-|12|Haskell|
-|13|Swift|
-|14|PHP|
+| Day | Language |Sol1|Sol2|
+|-----|----------|----|----|
+|1|CoffeeScript|Y|Y|
+|2|JavaScript|Y|Y|
+|3|C|Y|Y|
+|4|Go|Y|Y|
+|5|Ruby|Y|Y|
+|6|Perl|Y|Y|
+|7|Java|Y|Y|
+|8|Rust|Y|Y|
+|9|Clojure|Y|Y|
+|10|Kotlin|Y|Y|
+|11|Elixir|N|N|
+|12|Haskell|Y|Y|
+|13|Swift|Y|N|
+|14|PHP|Y|N|
 |15|Bash|
 |16|OCaml|
 |17|J|
