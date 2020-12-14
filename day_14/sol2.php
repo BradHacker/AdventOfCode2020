@@ -1,8 +1,7 @@
 <?php
   function WriteToAddresses(Array &$memory, String $maskedAddress, int $value)
   {
-    if (!strpos($maskedAddress, "X")) {
-      print $maskedAddress . "(" . bindec($maskedAddress) . ") set to " . $value . "\n";
+    if (strpos($maskedAddress, "X") === false) {
       $memory[$maskedAddress] = $value;
     } else {
       $before = strstr($maskedAddress, "X", true);
@@ -12,7 +11,7 @@
       WriteToAddresses($memory, $before . "1" . $after, $value);
     }
   }
-  $inputFile = fopen("sample.txt", "r") or die("can't open input file...");
+  $inputFile = fopen("input.txt", "r") or die("can't open input file...");
   $input = fread($inputFile, filesize("input.txt"));
   $lines = explode("\n", $input);
   $currMask = "";

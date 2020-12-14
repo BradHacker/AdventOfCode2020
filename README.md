@@ -19,7 +19,7 @@ These are my solutions to the Advent Of Code 2020 event.
 |11|Elixir|N|N|
 |12|Haskell|Y|Y|
 |13|Swift|Y|N|
-|14|PHP|Y|N|
+|14|PHP|Y|Y|
 |15|Bash|
 |16|OCaml|
 |17|J|
