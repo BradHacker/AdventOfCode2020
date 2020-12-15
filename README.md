@@ -20,7 +20,7 @@ These are my solutions to the Advent Of Code 2020 event.
 |12|Haskell|Y|Y|
 |13|Swift|Y|N|
 |14|PHP|Y|Y|
-|15|Bash|
+|15|Bash|Y|*|
 |16|OCaml|
 |17|J|
 |18|Python|
@@ -31,3 +31,5 @@ These are my solutions to the Advent Of Code 2020 event.
 |23|Lua|
 |24|F|
 |25|Lisp|
+
+*Due to bash performance wasn't possible (solved with C)
