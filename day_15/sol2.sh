@@ -32,10 +32,10 @@ function exists {
 
 echo "Generating numbers..."
 
-until [ $turnNum -eq 30000000 ]; do
+while [ $turnNum -lt 30000000 ]; do
   # echo -ne " | $turnNum\r"
   speaking=$nextNum
-  if ! exists $speaking in storedIndicies; then
+  if ! exists $speaking in values; then
     let "nextNum = 0"
   else
     let "nextNum = $turnNum - ${values[$speaking]}"

@@ -32,4 +32,4 @@ These are my solutions to the Advent Of Code 2020 event.
 |24|F|
 |25|Lisp|
 
-*Due to bash performance wasn't possible (solved with C)
+*Due to bash performance wasn't feasible, ran for 5 hour without completion (solved with C)
